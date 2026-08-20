@@ -41,7 +41,9 @@ A PCA projection onto two principal components visualizes the cluster structure.
 
 **Attrition Analysis**
 Attrition Rate by Cluster
-Bild anzeigen
+
+![Attrition Rate by Cluster](barchart.png)
+
 Segmenting employees reveals sharp differences in attrition risk: out of the long commuters cluster, roughly 1 in 5 (21.8%) are leaving the company, compared to just 1 in 14 (7.3%) among senior employees.
 Attrition Rate by Cluster and Department
 Bild anzeigen
