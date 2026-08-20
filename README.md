@@ -1,13 +1,19 @@
 # unsupervised-machine-learning
 
 **Employee Segmentation & Retention Analysis**
+
 Used K-Means Clustering to segment employees based on demographic, job-related, and satisfaction factors, then applied PCA to visualize the resulting clusters. Each segment was linked to attrition data and broken down further by department, revealing hidden risk concentrations that shaped more targeted retention recommendations.
+
 Tools: Python · Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn
 
 **Approach**
+
 I started by segmenting employees using K-Means, based on demographic (age, gender), job-related (level, income, distance from home, performance), and satisfaction factors. Since these features have very different scales (income in thousands vs. satisfaction on a 1-5 scale), I standardized them first so no single variable would dominate the clustering just because of its numeric range.
+
 To make sense of the resulting clusters visually, I reduced the data to two dimensions using PCA and plotted the clusters on that 2D projection.
+
 The clustering itself only tells you that groups exist, not whether they matter. To find out, I added each employee's attrition status to their cluster assignment, using pd.concat() to attach the attrition column onto the cluster table. This let me calculate the actual attrition rate within each cluster, turning an abstract segmentation into a measurable retention risk.
+
 Finally, I broke that attrition rate down further by department. A cluster's overall attrition rate can hide very different realities depending on where employees work, and that turned out to be the case here.
 (Full preprocessing and cleaning code available upon request, see note at the bottom.)
 
