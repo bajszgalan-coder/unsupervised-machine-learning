@@ -13,7 +13,7 @@ Finally, I broke that attrition rate down further by department. A cluster's ove
 
 **Determining the Number of Clusters**
 ![Number of Clusters vs. Inertia](Inertia.png)
-Bild anzeigen
+![Number of Clusters vs. Silhouette](Silhouette.png)
 The elbow method (inertia) suggests a good cluster count somewhere between 4 and 6, while the silhouette score peaks at k=3. Rather than following a single metric, k=6 was chosen because it activated two dimensions, commute distance and performance, that stayed near zero at lower cluster counts, and because it aligned well with the elbow curve's flattening point.
 
 **Results**
