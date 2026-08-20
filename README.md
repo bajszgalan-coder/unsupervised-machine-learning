@@ -49,10 +49,12 @@ Segmenting employees reveals sharp differences in attrition risk: out of the lon
 ![Attrition Rate by Cluster and Department](departmentheatmap.png)
 
 Breaking attrition down by department tells a more nuanced story. Long commuters in HR leave at a striking 66.7%, but the same cluster in R&D sits at just 15.4%. This pattern repeats across other at-risk clusters too: R&D consistently shows the lowest attrition among long commuters, employees who dislike their jobs, and female employees.
+
 There's also a hidden risk worth flagging: female employees look only moderately at risk overall (15.5%), but that average hides a concentrated spike, 30% attrition within HR specifically, the second-highest single risk point in the entire dataset.
 
 **Methodological Notes**
 Why k=6 instead of k=4?
+
 At k=4, distance from home and performance rating stayed close to zero across every cluster, meaning they weren't actually distinguishing anyone. Moving to k=6 activated both dimensions, surfacing two segments that hadn't existed before: long commuters and high performers, two groups that turned out to carry among the highest attrition risk in the dataset.
 
 **Findings & Recommendations**
