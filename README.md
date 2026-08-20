@@ -15,7 +15,8 @@ To make sense of the resulting clusters visually, I reduced the data to two dime
 The clustering itself only tells you that groups exist, not whether they matter. To find out, I added each employee's attrition status to their cluster assignment, using pd.concat() to attach the attrition column onto the cluster table. This let me calculate the actual attrition rate within each cluster, turning an abstract segmentation into a measurable retention risk.
 
 Finally, I broke that attrition rate down further by department. A cluster's overall attrition rate can hide very different realities depending on where employees work, and that turned out to be the case here.
-(Full preprocessing and cleaning code available upon request, see note at the bottom.)
+
+*Full notebook available upon request.*
 
 **Determining the Number of Clusters**
 
