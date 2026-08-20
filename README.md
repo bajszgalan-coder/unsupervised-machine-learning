@@ -56,11 +56,13 @@ Why k=6 instead of k=4?
 At k=4, distance from home and performance rating stayed close to zero across every cluster, meaning they weren't actually distinguishing anyone. Moving to k=6 activated both dimensions, surfacing two segments that hadn't existed before: long commuters and high performers, two groups that turned out to carry among the highest attrition risk in the dataset.
 
 **Findings & Recommendations**
+
 Higher attrition risk:
-Long commuters, highest overall attrition (21.8%), concentrated almost entirely in HR (66.7%) and Sales (31.1%); R&D sits close to the company average (15.4%). Remote or hybrid options would likely help most in HR and Sales specifically, not company-wide.
-Men who dislike their jobs, manager check-ins recommended, especially outside R&D.
-High performers, create clearer paths to senior roles to retain ambitious employees.
+- Long commuters, highest overall attrition (21.8%), concentrated almost entirely in HR (66.7%) and Sales (31.1%); R&D sits close to the company average (15.4%). Remote or hybrid options would likely help most in HR and Sales specifically, not company-wide.
+- Men who dislike their jobs, manager check-ins recommended, especially outside R&D.
+- High performers, create clearer paths to senior roles to retain ambitious employees.
+
 Lower attrition risk (with one exception):
-Senior employees, low attrition (7.3%), consistent with a group defined by high age, job level, and income.
-Men who like their jobs, expected, satisfaction drives retention.
-Female employees, moderate on average (15.5%), but attrition reaches 30% within HR specifically, the second-highest single risk point in the dataset. Worth investigating what's different about the HR environment for women specifically.
+- Senior employees, low attrition (7.3%), consistent with a group defined by high age, job level, and income.
+- Men who like their jobs, expected, satisfaction drives retention.
+- Female employees, moderate on average (15.5%), but attrition reaches 30% within HR specifically, the second-highest single risk point in the dataset. Worth investigating what's different about the HR environment for women specifically.
