@@ -45,8 +45,9 @@ Attrition Rate by Cluster
 ![Attrition Rate by Cluster](barchart.png)
 
 Segmenting employees reveals sharp differences in attrition risk: out of the long commuters cluster, roughly 1 in 5 (21.8%) are leaving the company, compared to just 1 in 14 (7.3%) among senior employees.
-Attrition Rate by Cluster and Department
-Bild anzeigen
+
+![Attrition Rate by Cluster and Department](departmentheatmap.png)
+
 Breaking attrition down by department tells a more nuanced story. Long commuters in HR leave at a striking 66.7%, but the same cluster in R&D sits at just 15.4%. This pattern repeats across other at-risk clusters too: R&D consistently shows the lowest attrition among long commuters, employees who dislike their jobs, and female employees.
 There's also a hidden risk worth flagging: female employees look only moderately at risk overall (15.5%), but that average hides a concentrated spike, 30% attrition within HR specifically, the second-highest single risk point in the entire dataset.
 
