@@ -19,13 +19,24 @@ Finally, I broke that attrition rate down further by department. A cluster's ove
 The elbow method (inertia) suggests a good cluster count somewhere between 4 and 6, while the silhouette score peaks at k=3. Rather than following a single metric, k=6 was chosen because it activated two dimensions, commute distance and performance, that stayed near zero at lower cluster counts, and because it aligned well with the elbow curve's flattening point.
 
 **Results**
+
 Cluster Segmentation
 
 ![Heatmap of the Cluster Centers](heatmap.png)
 
 Six employee segments emerged, each named after its dominant characteristic: senior employees, high performers, long commuters, female employees, men who like their jobs, and men who dislike their jobs.
+Interpretation of the clusters 
+cluster 0: junior satisfied male employees with low job level, low monthly income and long commute
+cluster 1: high performing junior employees with low joblevel, low monthly income 
+cluster 2: low performing employees with long commute, low job level and monthly income
+cluster 3: low performing junior female employees with low job level, low monthly income, long commute
+cluster 4: senior employees with high job level and monthly income 
+cluster 5: unsatisfied and low performing junior male employees with low job level, low monthly income, long commute
+
 Visualizing the Clusters with PCA
-Bild anzeigen
+
+![Clusters with PCA](kmeans scatterplot.png)
+
 A PCA projection onto two principal components visualizes the cluster structure. PC1 primarily reflects seniority (age, job level, income), while PC2 contrasts gender, commute distance, and performance against job satisfaction. The senior group is clearly separated along PC1, while the remaining clusters overlap more, since their distinguishing factors are not dominant in PC1/PC2.
 
 **Attrition Analysis**
