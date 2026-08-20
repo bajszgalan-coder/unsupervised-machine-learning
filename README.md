@@ -36,8 +36,6 @@ There's also a hidden risk worth flagging: female employees look only moderately
 **Methodological Notes**
 Why k=6 instead of k=4?
 At k=4, distance from home and performance rating stayed close to zero across every cluster, meaning they weren't actually distinguishing anyone. Moving to k=6 activated both dimensions, surfacing two segments that hadn't existed before: long commuters and high performers, two groups that turned out to carry among the highest attrition risk in the dataset.
-On n_init
-Using n_init=10 (best of 10 runs) produced a marginally more compact clustering by inertia, but consistently collapsed into a single-variable "performance outlier" cluster rather than a multi-dimensional segmentation. n_init='auto' (a single k-means++ run) produced richer, more interpretable clusters across gender, satisfaction, and commute distance simultaneously. Inertia minimization alone doesn't guarantee the most business-relevant clustering; this was validated by comparing both against actual attrition outcomes.
 
 **Findings & Recommendations**
 Higher attrition risk:
