@@ -21,7 +21,7 @@ The elbow method (inertia) suggests a good cluster count somewhere between 4 and
 **Results**
 Cluster Segmentation
 
-![Heatmap of the Cluster Centers](Heatmap.png)
+![Heatmap of the Cluster Centers](heatmap.png)
 
 Six employee segments emerged, each named after its dominant characteristic: senior employees, high performers, long commuters, female employees, men who like their jobs, and men who dislike their jobs.
 Visualizing the Clusters with PCA
