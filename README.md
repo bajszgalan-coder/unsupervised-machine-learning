@@ -35,7 +35,7 @@ cluster 5: unsatisfied and low performing junior male employees with low job lev
 
 Visualizing the Clusters with PCA
 
-![Clusters with PCA](kmeans scatterplot.png)
+![Clusters with PCA](kmeansscatterplot.png)
 
 A PCA projection onto two principal components visualizes the cluster structure. PC1 primarily reflects seniority (age, job level, income), while PC2 contrasts gender, commute distance, and performance against job satisfaction. The senior group is clearly separated along PC1, while the remaining clusters overlap more, since their distinguishing factors are not dominant in PC1/PC2.
 
