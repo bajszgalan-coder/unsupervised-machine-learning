@@ -16,7 +16,7 @@ The clustering itself only tells you that groups exist, not whether they matter.
 
 Finally, I broke that attrition rate down further by department. A cluster's overall attrition rate can hide very different realities depending on where employees work, and that turned out to be the case here.
 
-*Full notebook available upon request.*
+*Full Jupyter notebook available upon request.*
 
 **Determining the Number of Clusters**
 
